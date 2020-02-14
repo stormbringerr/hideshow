@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jquery</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-2.0.3.js"></script>
+  
+  
+  <h1 class="fadeouttag"> header1</h1>
+  <h2 class="fadeouttag"> header2</h2>
+  
+   <p>awesome</p>
+    <p>second</p>
+  
+  <button id="button1"> hide</button>
+  <button id="button2"> show</button>
+
+ <script>
+   $(document).ready(function(){
+   $ ("#button1").click(function (){
+     $(".fadeouttag").hide();
+     
+
+   });          
+ 
+$ ("#button2").click(function (){
+  $(".fadeouttag").show();
+     
+
+   }) ;          
+ 
+ });
+  </script>
+</body>
+</html>
